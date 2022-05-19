@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A CLI todo application that allow you create, list, update, delete todos. You can also mark a todo as done and can pipe commands. ",
   "main": "index.js",
+  "type": "module",
+  "bin": {
+    "todos": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
